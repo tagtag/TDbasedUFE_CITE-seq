@@ -1,3 +1,4 @@
+#Remove comments (#) either for #CD or #organ
 y0 <- read.csv("GSE297097_All.IGTs.Enhanced.Summary.Table.2026-02-12.csv.gz")
 y <- read.csv("GSE297097_annotation_table_20260206_IGT1_104_cleaned.csv.gz")
 require(umap)
