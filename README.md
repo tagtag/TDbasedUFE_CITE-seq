@@ -14,4 +14,9 @@ Run batch_GSEXXXXXX_scmomat.R  (it takes 10 to 15  hours  on Intel(R) Xeon(R) CP
 
 Run Seurat.R 
 
+#Metrics
+
+Run Metric.R to compute various metrics
+
+#------
 Where to retrieved files can be found in the paper.
