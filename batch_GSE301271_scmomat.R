@@ -62,7 +62,7 @@ losses <- model$train_func(
   T = 4000L 
 )
 
-#save(file="model_GSE301271",model)
+save(file="model_GSE301271",model)
 # ---------------------------------------------------------
 # 5. 解析結果（潜在表現）の取得とRでの利用（修正版）
 # ---------------------------------------------------------
@@ -71,8 +71,8 @@ losses <- model$train_func(
 cell_factors_py <- model$extract_cell_factors()
 save(file="cell_factors_py_GSE301271",cell_factors_py)
 
-#UMAP <- umap(cell_factors_py[[1]])
-#save(file="UMAP_scmomat_GSE301271",UMAP)
+UMAP <- umap(cell_factors_py[[1]])
+save(file="UMAP_scmomat_GSE301271",UMAP)
 
 
 
