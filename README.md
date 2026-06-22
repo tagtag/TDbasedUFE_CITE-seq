@@ -16,7 +16,7 @@ Run Seurat.R
 
 #Metrics
 
-Run Metric.R to compute various metrics
+Run Metrics.R to compute various metrics
 
 #------
 Where to retrieved files can be found in the paper.
