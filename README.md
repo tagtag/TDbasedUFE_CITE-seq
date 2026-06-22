@@ -4,4 +4,12 @@ This is sample R script used in the paper entitled "Novel Parameter-Free and Int
 At first, batch_GSEXXXXXX.R should be executed (it takes a few hours  on Intel(R) Xeon(R) CPU E5-2643 v4 @ 3.40GHz).
 Then execute sample.R to get results.
 
+
+
+#scMoMaT
+Run batch_GSEXXXXXX_scmomat.R  (it takes 10 to 15  hours  on Intel(R) Xeon(R) CPU E5-2643 v4 @ 3.40GHz)
+
+#Seurat Wnn
+Run Seurat.R 
+
 Where to retrieved files can be found in the paper.
